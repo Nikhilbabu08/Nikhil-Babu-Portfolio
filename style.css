@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto';
+    background-color: rgb(14, 14, 28);
+}
+.navbar-nav .nav-item {
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+  }
+  .nav-link:hover{
+    color: #ffc107 !important;
+  }
+.img{
+  margin-top: 60px;
+  width: 75%;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.heading{
+  text-decoration:underline;
+  text-decoration-thickness: 0.5px;
+  text-decoration-color: #ffc107;
+}
+.react{
+  height: 29px;
+}
+.small-text{
+  font-size: 9px;
+  margin-top: 15px;
+}
+.img {
+  transition: transform .2s; /* Add a transition effect */
+}
+
+.img:hover {
+  transform: scale(1.1); /* Change the scale on hover */
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgb(203, 136, 2);
+}
